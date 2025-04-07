@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CSS Zen Garden: The Beauty of CSS Design</title>
+
+	<link rel="stylesheet" media="screen" href="style.css">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Dave Shea">
+	<meta name="description" content="A demonstration of what can be accomplished visually through CSS-based design.">
+	<meta name="robots" content="all">
+
+
+	<!--[if lt IE 9]>
+	<script src="script/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<!--
+
+
+
+	View source is a feature, not a bug. Thanks for your curiosity and
+	interest in participating!
+
+	Here are the submission guidelines for the new and improved csszengarden.com:
+
+	- CSS3? Of course! Prefix for ALL browsers where necessary.
+	- go responsive; test your layout at multiple screen sizes.
+	- your browser testing baseline: IE9+, recent Chrome/Firefox/Safari, and iOS/Android
+	- Graceful degradation is acceptable, and in fact highly encouraged.
+	- use classes for styling. Don't use ids.
+	- web fonts are cool, just make sure you have a license to share the files. Hosted 
+	  services that are applied via the CSS file (ie. Google Fonts) will work fine, but
+	  most that require custom HTML won't. TypeKit is supported, see the readme on this
+	  page for usage instructions: https://github.com/mezzoblue/csszengarden.com/
+
+	And a few tips on building your CSS file:
+
+	- use :first-child, :last-child and :nth-child to get at non-classed elements
+	- use ::before and ::after to create pseudo-elements for extra styling
+	- use multiple background images to apply as many as you need to any element
+	- use the Kellum Method for image replacement, if still needed. http://goo.gl/GXxdI
+	- don't rely on the extra divs at the bottom. Use ::before and ::after instead.
+
+		
+-->
+
+<body id="css-zen-garden" onload="boasVindas()">
+<div class="page-wrapper">
+
+	<section class="intro" id="zen-intro">
+		<header role="banner">
+			<h1>Projeto WEB</h1>
+			<h2>Galeria de Artes</h2>
+		</header>
+
+		<div class="summary" id="zen-summary" role="article">
+			<p><strong>Galeria de arte</strong> é um espaço arquitetônico que expõe e comercializa adequadamente as <strong>obras de arte</strong>. Os espaços são definidos para proporcionarem segurança e uma correta apreciação dos objetos expostos, levando em consideração o posicionamento, iluminação e possibilidade de distanciamento e circulação do espectador.</p>
+			<img src="img2.jpg" alt="">
+		</div>
+
+		<div class="preamble" id="zen-preamble" role="article">
+			<h3>História da arte</h3>
+			<p><strong>História da arte</strong> é a história de qualquer atividade ou produto realizado com propósito estético ou comunicativo, enquanto expressão de ideias, emoções ou formas de <strong>ver o mundo</strong>. Ao longo do tempo, as artes visuais têm sido classificadas de várias formas diferentes, desde a distinção medieval entre as artes liberais e as artes mecânicas, até à distinção moderna entre <strong>belas artes</strong> e <strong>artes aplicadas</strong>, ou às várias definições contemporâneas, que definem arte como a manifestação da criatividade humana. </p>
+			<p>O alargamento da lista das principais artes durante o século XX definiu nove: arquitetura, dança, escultura, música, pintura, poesia (aqui definida em sentido lato como forma de literatura com um propósito ou função estética, o que inclui também o <strong>teatro</strong> e a <strong>narrativa literária</strong>), o <strong>cinema</strong>, a <strong>fotografia</strong> e a <strong>banda desenhada</strong>.</p>
+			<p>Quando considerada a sobreposição de termos entre as artes plásticas e as artes visuais, inclui-se também o design e as artes gráficas. Para além das formas tradicionais de expressão artística, como a moda ou a gastronomia, estão a ser considerados como arte novos meios de expressão, como o vídeo, arte digital, performance, a publicidade, a animação, a televisão e os jogos de computador.</p>
+		</div>
+	</section>
+
+	<div class="main supporting" id="zen-supporting" role="main">
+		<div class="explanation" id="zen-explanation" role="article">
+			<h3>Pré-história</h3>
+			<p>Os primeiros artefactos tangíveis que podem ser considerados arte aparecem na <strong>Idade da Pedra</strong> (Paleolítico superior, Mesolítico e neolítico). Durante o Paleolítico (25 000-8 000 a.C.) o Homem era ainda <strong>caçador-coletor</strong>, habitando <strong>cavernas</strong> que viriam a ser os primeiros suportes de <strong>arte rupestre</strong>.[1] Após o período de transição do Mesolítico, é durante o Neolítico (6 000-3 000 a.C.) que o Homem se sedentariza e inicia a prática da <strong>agricultura</strong>.</p>
+			<p>À medida que as sociedades se tornam cada vez mais complexas e a religião ganha importância, tem início a produção de artesanato. Durante a Idade do Bronze (c. 3 000-1 000 a.C.), têm início as primeiras civilizações proto-históricas.</p>
+		</div>
+
+		<div class="participation" id="zen-participation" role="article">
+			<h3>Arte Antiga</h3>
+			<p>Arte antiga, ou arte da antiguidade, designa as criações artísticas do primeiro período da História que se inicia com a invenção da <strong>escrita</strong>, e durante o qual aparecem as primeiras grandes cidades nas margens dos rios <strong>Nilo</strong>, <strong>Tigre</strong>, <strong>Eufrates</strong>, <strong>Indo</strong> e <strong>Amarelo</strong> e se destacam as grandes civilizações do <strong>Médio Oriente</strong> (Egípcia e Mesopotâmica). Ao contrário de períodos anteriores, as manifestações artísticas ocorreram em todas as culturas de todos os continentes.</p>
+			<p>Um dos maiores progressos deste período foi a invenção da escrita, criada sobretudo a partir da necessidade de manter registos de natureza económica e comercial. A primeira forma de escrita foi a cuneiforme, surgida na Mesopotâmia por volta de 3 500 a.C. 3 500 a.C., baseada em elementos pictográficos e ideográficos e registada em suportes de argila. Os sumérios desenvolveriam mais tarde a escrita com sílabas, enquanto que a escrita Egípcia recorria a hieróglifos. A língua hebraica foi uma das primeiras a utilizar um alfabeto, que atribui um símbolo a cada fonema.</p>
+		</div>
+
+		<div class="benefits" id="zen-benefits" role="article">
+			<img src="img3.jpg" alt="">
+			<h3>Arte na Idade Moderna</h3>
+			<p>A <strong>Idade Moderna</strong> inicia no <strong>Renascimento</strong>, período de grande esplendor cultural na Europa. A religião deu lugar a uma concepção científica do homem e do universo, no sistema do humanismo. As novas descobertas geográficas levaram a civilização europeia a se expandir para todos os continentes, e através da invenção da imprensa a cultura se universalizou. Sua <strong>arte</strong> foi inspirada basicamente na arte clássica greco-romana e na observação científica da natureza.</p>
+		</div>
+
+		<div class="requirements" id="zen-requirements" role="article">
+			<h3>Arte na Idade Contemporânea</h3>
+			<p>ntre meados do século XIX e o início do XX se lançaram as bases da sociedade contemporânea, marcada no terreno político pelo fim do <strong>absolutismo</strong> e a instauração dos governos <strong>democráticos</strong>. No campo econômico, marcaram esta fase a <strong>Revolução Industrial</strong> e a consolidação do <strong>capitalismo</strong>, que tiveram respostas nas doutrinas de esquerda como o <strong>marxismo</strong>, e nas <strong>lutas de classes</strong>. Na arte o que tipifica o período é a multiplicação de correntes grandemente diferenciadas. Até o fim do século XIX surgiram, por exemplo, o <strong>realismo</strong>, o <strong>impressionismo</strong>, o <strong>simbolismo</strong> e o <strong>pós-impressionismo</strong>.</p>
+			<p>O século XX se caracterizou por uma forte ênfase no questionamento das antigas bases da arte, propondo-se a criar um novo paradigma de cultura e sociedade e derrubar tudo o que fosse tradição. Até meados do século as vanguardas foram enfeixadas no rótulo de modernismo, e desde então elas se sucedem cada vez com maior rapidez, chegando aos dias de hoje a um estado de total pulverização dos estilos e estéticas, que convivem, dialogam, se influenciam e se enfrentam mutuamente. Também surgiu uma tendência de solicitar a participação do público no processo de criação, e incorporar ao domínio artístico uma variedade de temas, estilos, práticas e tecnologias antes desconhecidas ou excluídas. Entre as inúmeras tendências do século XX podemos citar: art nouveau, fauvismo, pontilhismo, abstracionismo, expressionismo, realismo socialista, cubismo, futurismo, dadaísmo, surrealismo, funcionalismo, construtivismo, informalismo, arte pop, neorrealismo, artes de ação (performance, happening, fluxus), Instalação, videoarte, op art, minimalismo, arte conceitual, fotorrealismo, land art, arte povera, body art, arte pós-moderna, transvanguarda, neoexpressionismo.</p>
+		</div>
+
+		<footer>
+			<a href="https://pt.wikipedia.org/wiki/Ficheiro:Les_Grandes_Baigneuses,_par_Paul_C%C3%A9zanne,_Yorck.jpg" title="Check the validity of this site&#8217;s HTML" class="zen-validate-html">Yorck</a>
+			<a href="https://pt.wikipedia.org/wiki/Ficheiro:Fugue.JPG" title="Check the validity of this site&#8217;s CSS" class="zen-validate-css">Fugue</a>
+			<a href="https://pt.wikipedia.org/wiki/Ficheiro:Shirt_Front_and_Fork.JPG" title="View the Creative Commons license of this site: Attribution-NonCommercial-ShareAlike." class="zen-license">Fork</a>
+			<a href="https://pt.wikipedia.org/wiki/Ficheiro:Salvador_Dali_A_(Dali_Atomicus)_09633u.jpg" title="Read about the accessibility of this site" class="zen-accessibility">Dali</a>
+		</footer>
+
+	</div>
+
+
+	<aside class="sidebar" role="complementary">
+		<div class="wrapper">
+
+			<div class="design-selection" id="design-selection">
+				<h3 class="select">Exposição de Arte:</h3>
+				<nav role="navigation">
+					<ul>
+					<li>
+						<a href="https://pt.wikipedia.org/wiki/O_Grito" class="design-name">O Grito</a> by						<a href="https://pt.wikipedia.org/wiki/Edvard_Munch" class="designer-name">	Edvard Munch</a>
+					</li>					<li>
+						<a href="https://pt.wikipedia.org/wiki/Doze_Girass%C3%B3is_numa_Jarra" class="design-name">Doze Girassóis numa Jarra</a> by						<a href="https://pt.wikipedia.org/wiki/Vincent_van_Gogh" class="designer-name">Vincent van Gogh</a>
+					</li>					<li>
+						<a href="https://www.wikiart.org/pt/paula-rego/the-maids-1987" class="design-name">The Maids</a> by						<a href="https://www.wikiart.org/pt/paula-rego" class="designer-name">Paula Rego</a>
+					</li>					<li>
+						<a href="https://www.wikiart.org/pt/pablo-picasso/vieux-guitariste-aveugle-1903" class="design-name">Vieux guitariste aveugle</a> by						<a href="https://www.wikiart.org/pt/pablo-picasso" class="designer-name">Pablo Picasso</a>
+					</li>					<li>
+						<a href="https://en.wikipedia.org/wiki/Campbell%27s_Soup_Cans/" class="design-name">Campbell's Soup Cans</a> by						<a href="https://en.wikipedia.org/wiki/Andy_Warhol" class="designer-name">Andy Warhol</a>
+					</li>					<li>
+						<a href="https://www.wikiart.org/pt/johannes-vermeer/a-leiteira-1660" class="design-name">A Leiteira</a> by						<a href="https://www.wikiart.org/pt/johannes-vermeer/" class="designer-name">Johannes Vermeer</a>
+					</li>					<li>
+						<a href="https://www.wikiart.org/pt/jose-de-almada-negreiros/os-banhistas-1925" class="design-name">Os Banhistas</a> by						<a href="https://www.wikiart.org/pt/jose-de-almada-negreiros/" class="designer-name">José de Almada Negreiros</a>
+					</li>					<li>
+						<a href="https://www.wikiart.org/pt/candido-portinari/o-mesti-o-1934" class="design-name">O Mestiço</a> by						<a href="https://www.wikiart.org/pt/candido-portinari" class="designer-name">Candido Portinari</a>
+					</li>					</ul>
+				</nav>
+			</div>
+
+			<div class="design-archives" id="design-archives">
+				<h3 class="archives">Arquivos:</h3>
+				<nav role="navigation">
+					<ul>
+						<li class="next">
+							<a href="http://arthistoryresources.net/ARTHLinks.html">
+								Art History Resources
+							</a>
+						</li>
+						<li class="viewall">
+							<a href="https://pt.wikipedia.org/wiki/Portal:Arte">
+								Portal da Arte							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="zen-resources" id="zen-resources">
+				<h3 class="resources">Recursos:</h3>
+				<ul>
+					<li class="view-css">
+						<a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_arte#Liga%C3%A7%C3%B5es_externas">História da Arte</a>
+					</li>
+					<li class="css-resources">
+						<a href="https://pt.wikipedia.org/wiki/Galeria_de_arte">
+							Galeria de Arte</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</aside>
+
+
+</div>
+
+<!--
+
+	These superfluous divs/spans were originally provided as catch-alls to add extra imagery.
+	These days we have full ::before and ::after support, favour using those instead.
+	These only remain for historical design compatibility. They might go away one day.
+		
+-->
+<div class="extra1" role="presentation"></div><div class="extra2" role="presentation"></div><div class="extra3" role="presentation"></div>
+<div class="extra4" role="presentation"></div><div class="extra5" role="presentation"></div><div class="extra6" role="presentation"></div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
